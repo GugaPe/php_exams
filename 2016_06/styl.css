@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.baner {
+  background-color: #3a7ad9;
+  text-align: center;
+  height: 50px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.lewy {
+  background-color: #5d93e2;
+  height: 400px;
+  width: 30%;
+}
+
+.prawy {
+  background-color: #88b0ec;
+  height: 400px;
+  width: 70%;
+}
+
+.stopka {
+  background-color: #3a7ad9;
+  text-align: right;
+}

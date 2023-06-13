@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIlmy</title>
+    <link rel="stylesheet" href="./styl1.css">
+</head>
+<body>
+    <div class="content">
+        <div class="panel_boczny_prawy">
+            <h3>Dostępne gatunki filmu</h3>
+            <ol>
+                <li>Sci-Fi</li>
+                <li>animacja</li>
+                <li>dramat</li>
+                <li>horror</li>
+                <li>komedia</li>
+            </ol>
+            <p><a href="./kadr.png">Pobierz obraz</a></p>
+            <p><a target="_blank" href="repertuar-kin.pl">Sprawdź repertuar kin</a></p>
+        </div>
+        <div class="panel_boczny_lewy">
+            <div class="gora">
+                <h1>FILMOTEKA</h1>
+            </div>
+            <div class="srodek">
+                <form method="post" action="./dodaj.php">
+                    <div>
+                    <label for="tytul">Tytuł: </label>
+                    <input type="text" id="tytul" name="tytul">
+                </div>
+
+                <div>
+                    <label for="gatunek">Gatunek filmu: </label>
+                    <input type="number" id="gatunek" name="gatunek">
+                </div>
+
+                <div>
+                    <label for="rok">Rok produkcji: </label>
+                    <input type="number" id="rok" name="rok">
+                </div>
+
+                <div>
+                    <label for="ocena">Ocena: </label>
+                    <input type="number" id="ocena" name="ocena">
+                </div>
+
+                <div>
+                    <button type="reset">CZYŚĆ</button>
+                    <button type="submit">DODAJ</button>
+                </div>
+                </form>
+            </div>
+            <div class="dol">
+                <img src="./kadr.png" alt="zdjęcia filmowe">
+            </div>
+        </div>
+    </div>
+    <div class="stopka">
+        <p>Autor strony: 06231010911</p>
+    </div>
+</body>
+</html>

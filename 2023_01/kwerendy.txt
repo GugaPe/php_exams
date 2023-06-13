@@ -1,0 +1,11 @@
+--zapytanie 1
+INSERT INTO zawody_wedkarskie VALUES (null, 2, 4, "2021-09-28", "Andrzej Nowak")
+
+--zapytanie 2
+SELECT id, data_zawodow FROM zawody_wedkarskie WHERE sedzie = "Krzysztof Dobrowolski"
+
+--zapytanie 3
+SELECT k.imie, k.nazwisko, k.punkty FROM karty_wedkarskie AS k JOIN zawody_wedkarskie AS z ON k.id = z.karty_wedkarskie_id WHERE z.id = 4 GROUP BY k.punkty LIMIT 1
+
+--zapytanie 4
+UPDATE karty_wedkarskie SET punkty = punkty + 2 WHERE id = 1

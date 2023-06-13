@@ -1,0 +1,67 @@
+body {
+	font-family: Georgia;
+	margin: 0;
+	padding: 0;
+}
+
+.logo, .menu {
+	background-color: #63AC74;
+	color: orange;
+	height: 140px;
+	width: 50%;
+	text-align: right;
+	font-size: 160%;
+}
+
+.content {
+	background-color: #E3F6E7;
+	height: 500px;
+	padding: 20px;
+}
+
+.f1, .f2, .f3, .f4 {
+	background-color: #63AC74;
+	height: 150px;
+	width: 25%;
+}
+
+a {
+	color: orange;
+	margin: 15px;
+}
+
+table {
+	width: 100%;
+	border: 2px solid green;
+}
+
+th {
+	background-color: #63AC74;
+	color: white;
+}
+
+.cena-column {
+	text-align: right;
+}
+
+.top{
+	display: flex;
+	flex-direction: row;
+}
+
+.footer {
+	display: flex;
+	flex-direction: row;
+}
+
+img {
+	height: 150px;
+	width: auto;
+}
+
+ul {
+	list-style: none;
+	display: inline-flex;
+	margin: 0;
+	padding: 0;
+}

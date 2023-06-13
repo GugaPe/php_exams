@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.baner {
+  background-color: #b284be;
+  height: 60px;
+  font-size: 120%;
+  text-align: center;
+}
+
+.content {
+  display: flex;
+}
+
+.lewy {
+  background-color: #bce27f;
+  height: 600px;
+  width: 25%;
+  font-size: 120%;
+}
+
+.srodkowy {
+  background-color: #bce27f;
+  height: 600px;
+  width: 50%;
+  text-align: center;
+}
+
+.prawy {
+  background-color: #bce27f;
+  height: 600px;
+  width: 25%;
+  font-size: 120%;
+  text-align: center;
+}
+
+.stopka {
+  background-color: #b284be;
+  height: 60px;
+  text-align: left;
+  padding: 5px;
+}
+
+img {
+  width: 150px;
+  height: auto;
+}
+
+img,
+h2 {
+  margin-top: 50px;
+}
+
+form {
+  margin-bottom: 100px;
+}
+
+ul {
+  background-color: #b284be;
+}
+li {
+  padding-top: 20px;
+  list-style-position: inside;
+}

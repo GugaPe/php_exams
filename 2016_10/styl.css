@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.baner {
+    background-color: #829EB9;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.panele {
+    display: flex;
+}
+
+.lewy {
+    background-color: #B3C6D9;
+    height: 600px;
+    width: 25%;
+}
+
+.prawy {
+    background-color: #E0E9F1;
+    height: 600px;
+    width: 75%;
+    text-align: center;
+}
+
+.stopka {
+    background-color: #829EB9;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+}
+
+img {
+    margin: 30px;
+    padding: 10px;
+    border: #B3C6D9 2px solid;
+}
+
+table {
+    margin: 30px;
+    border: 2px solid;
+    width: 70%;
+}
+
+
+th {
+    background-color: #B3C6D9;
+    border: 2px solid;
+}
+
+tr:hover {
+    background-color: blue;
+    color: white;
+}
+
+
+td {
+    border: 2px solid;
+}
+
+p {
+    margin: 30px;
+}
+
+.twoje_haslo {
+    display: inline-block;
+    flex-direction: row;
+    margin-right: 0;
+}
+
+.sus {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+}
+
+h3 {
+    padding: 0;
+    margin: 0;
+}

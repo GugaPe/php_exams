@@ -1,0 +1,63 @@
+* {
+    font-family: Helvetica;
+}
+
+.tytul {
+    background-color: forestgreen;
+    color: white;
+    height: 100px;
+    width: 80%;
+    text-align: center;
+}
+
+.miniatura {
+    background-color: forestgreen;
+    height: 100px;
+    width: 20%;
+}
+
+.lewy {
+    background-color: tan;
+    height: 700px;
+    width: 25%;
+}
+
+.prawy {
+    background-color: tan;
+    height: 700px;
+    width: 75%;
+}
+
+.stopka {
+    background-color: forestgreen;
+    color: white;
+    text-align: center;
+}
+
+img {
+    margin: 4px;
+    padding: 5px;
+    border: 1px solid forestgreen;
+    border-radius: 20px;
+}
+
+img:hover {
+    border: 1px solid maroon;
+}
+
+.gora {
+    display: flex;
+}
+
+.content {
+    display: flex;
+}
+
+.stopka p {
+    margin: 0;
+}
+
+.content img {
+    height: 180px;
+    width: 240px;
+}
